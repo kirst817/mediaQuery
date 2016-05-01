@@ -1,0 +1,121 @@
+/*700 & 960px*/
+
+html {
+  background-color: #B5F5F2;
+}
+.header {
+    color: #fafae8;
+    max-width: 1300px;
+    text-align: center;
+    width: 100%;
+
+}
+
+.left {
+  color: #fafae8;
+  background-color: #7B568C;
+  width: 50%;
+  float: left;
+  display: inline-block;
+
+}
+ .right {
+ width: 50%;
+ float: left;
+ display: inline-block;
+ margin-top: -14px;
+ }
+
+ img {
+   float: left;
+   padding: 10px;
+   height: 60px;
+   width: 80px;
+ }
+
+ul {
+  list-style: none;
+  margin-left: -40px;
+}
+
+@media (max-width: 1300px) {
+ li{
+    width: 28%;
+    padding: 10px;
+    float: left;
+  }
+  .left {
+    width: 50%;
+    float: left;
+  }
+}
+
+
+@media (max-width: 1000px) {
+
+  li{
+     width: 12%;
+     padding: 20px;
+     display: inline-block;
+
+   }
+   .right {
+   width: 100%;
+   display: inline-block;
+
+   }
+   .left {
+     width: 100%;
+
+   }
+ }
+@media (max-width: 882px) {
+ li{
+    width: 28%;
+    float: left;
+  }
+  }
+@media (max-width: 767px){
+ li{
+    width: 26%;
+    float: left;
+}
+}
+@media (max-width: 578px){
+ li{
+    width: 24%;
+    float: left;
+    }
+
+}
+@media (max-width: 461px){
+ li{
+    width: 22%;
+    float: left;
+    }
+}
+@media (max-width: 461px){
+ li{
+    width: 20%;
+    float: left;
+    }
+}
+
+.lightgreen {
+  background-color:#4DC3EB;
+}
+.lightpink {
+  background-color:#DE8EB9;
+}
+.lightgrey{
+  background-color:#D7DADB;
+}
+.green {
+  background-color:#1D8C87;
+}
+.pink {
+  background-color: #AB5784;
+}
+.grey {
+  background-color: grey;
+}
